@@ -1,5 +1,10 @@
-body {
+.box {
   background-color: aqua;
+}
+
+.obrazek1,
+.obrazek2 {
+  border-radius: 30%;
 }
 
 
