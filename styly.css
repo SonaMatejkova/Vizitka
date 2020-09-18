@@ -1,18 +1,26 @@
-.box {
-  background-color: aqua;
+body {
+  background-color: rgb(204, 240, 240);
+}
+
+.vizitka {
+  width: 500px;
+  height: 200px;
+}
+.kontejner {
   display: flex;
-  justify-content: center;
-  justify-content: space-around;
+  flex-basis: 700px;
+  height: 300px;
+  background-color: white;
 }
 
-.obrazek1,
-.obrazek2 {
-  border-radius: 30%;
-  border: 2px solid rgb(7, 7, 94);
+.levy {
+  width: 50%;
 }
 
-.nadpis {
-  font-size: 50px;
-  color: rgb(7, 7, 94);
-  
+.pravy {
+  width: 50%;
+}
+
+.obrazek {
+  width: 220px;
 }
